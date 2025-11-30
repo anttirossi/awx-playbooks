@@ -1,5 +1,5 @@
 - name: Run Python host update script
-  hosts: 192.192.192.10
+  hosts: all
   become: no
   gather_facts: no
 
