@@ -1,0 +1,8 @@
+- name: Run Python host update script
+  hosts: localhost
+  become: no
+  gather_facts: no
+
+  tasks:
+    - name: Run Python script
+      ansible.builtin.command: python3 ~/update_awx_hosts.py
