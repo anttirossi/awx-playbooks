@@ -5,6 +5,7 @@
 
   tasks:
     - name Reboot the host and wat for it to come back
-      ansible.builtin.reboot:
+      ansible.builtin.reboot
 	     reboot_timeout: 600
          msg: "Reboot triggered by AWX"
+
